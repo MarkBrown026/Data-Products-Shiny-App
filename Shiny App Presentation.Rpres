@@ -1,0 +1,38 @@
+Shiny App Presentation
+========================================================
+author: Mark Brown
+date: 13 September 2018
+autosize: true
+
+About
+========================================================
+
+This presentation will be about the high quality app that I built
+It uses liquor store data from Canada France and Italy 
+
+
+The data
+========================================================
+
+```{r}
+bcl_url<- "http://pub.data.gov.bc.ca/datasets/176284/BC_Liquor_Store_Product_Price_List.csv"
+bcl <- read.csv(url(bcl_url), na.strings = c("NA", "", "#DIV0!"))
+str(bcl)
+```
+
+The App
+========================================================
+The app allows you to see the distribution of prices for different types of liquor. 
+
+It is uber amazing and I highly recommend you check it out
+
+It is easy to use just choose the options that are shown 
+
+The app filters (which I am going to assume counts as a calculation) the options by price
+
+Conclusion
+========================================================
+This is an amazing product that will enhance your life for the better.
+
+
+(or I choose an easy project to meet the minimum requirements, your choice)
